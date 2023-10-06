@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registration.css">
+    <title>Register</title>
+</head>
+<body>
+    <header class="header">
+        <img src="logoimg.png" alt="Logo">
+    </header>
+
+    <section class="background">
+        <div class="container">
+            <div class="content">
+                <div class="text">
+                    <p>Let's connect and grow</p>
+                    <h2>Register</h2>
+
+                </div>
+                <div class="logreg-box">
+                    <h2>Login or Register</h2>
+                    <form action="#">
+                        <div class="inputbox">
+                            <label>First Name</label>
+                            <input type="text" required>
+                        </div>
+                        <div class="inputbox">
+                            <label>Last Name</label>
+                            <input type="text" required>
+                        </div>
+                        <div class="inputbox">
+                            <label for="designation">Choose your post</label>
+                            <br><br>
+                            <select id="designation" name="designation" required>
+                                <option value="" disabled selected>Select your designation</option>
+                                <option value="entrepreneur">Entrepreneur</option>
+                                <option value="Contributer">Contributor</option>
+                                <option value="Sponsor">Sponsor</option>
+                            </select>
+                        </div>
+                        <div class="inputbox">
+                            <label>Email</label>
+                            <input type="email" required>
+                        </div>
+                        <div class="inputbox">
+                            <label>Password</label>
+                            <input type="password" required>
+                        </div>
+                        <div class="forgot">
+                            <label><input type="checkbox"> Remember me</label>
+                        </div>
+                        <br>
+                        <button type="submit" onclick="window.location.href='indel.html'">Register</button>
+                    </form>
+                    <br><br>
+                    <!-- Add Google Sign-In button -->
+                    <!-- <div class="google-login">
+                        <button id="google-login-button">Login with Google</button>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>    
+</body>
+</html>
